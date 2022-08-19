@@ -1,0 +1,145 @@
+html {
+  background-size: cover;
+}
+.header {
+  background-color: rgb(22, 21, 21);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(250, 241, 110);
+}
+.header h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.header img {
+  height: 30px;
+  margin-right: 8px;
+}
+/* main */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  height: 100%;
+}
+.card {
+  height: 180px;
+  width: 180px;
+  border: 2px yellow;
+  background-color: rgb(70, 68, 68);
+  color: rgb(233, 249, 128);
+  display: block;
+  /* justify-content: center;
+    align-items: center; */
+  margin: 2px;
+}
+.card a {
+  color: rgb(218, 251, 128);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: medium;
+  /* transform: translate(30px,30px); */
+
+  position: relative;
+  top: 30%;
+  right: 20%;
+}
+.card  a img {
+  height: 150px;
+  width: 150px;
+  transform: translate(50px, -30px);
+  /* margin-right: 10px; */
+}
+#manch-pro  image{
+  transform: translate(50px, -35px);
+
+}
+/* other file style */
+.list {
+  display: inline;
+}
+.list li {
+  color: yellow;
+  background-color: rgb(67, 67, 67);
+  margin: 3px;
+  padding: 5px;
+}
+ul {
+  list-style: none;
+}
+h3 {
+  text-align: center;
+  color: antiquewhite;
+  background-color: rgb(58, 57, 57);
+  border: 2px solid yellow;
+}
+.rate {
+  position: relative;
+  float: right;
+  /* margin:3px 3px ; */
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+.footer img {
+  height: 30px;
+  width: 30px;
+}
+.whatsapp {
+  margin: 0px 30px;
+
+  float: left;
+}
+.call {
+  margin: 0px 30px;
+}
+.insta {
+  margin: 0px 30px;
+
+  float: right;
+}
+@media only screen and (min-width: 450px) and (min-height: 900px) {
+  .container {
+    height: 150%;
+  }
+  .card {
+    width: 90%;
+    height: 80%;
+  }
+  #manch-pro {
+    right: 23%;
+    top: 30%;
+  }
+  .list {
+    height: 100%;
+  }
+  .card a  img{
+  width: 92px;
+  height: 92px;
+  transform: translate(17px, 2px);
+  }
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px 0px;
+  }
+}
+/* @media only screen and (max-width: 1400px) and (min-height: 700px) {
+  .footer {
+    position: relative;
+    bottom: 0;
+  }
+} */
